@@ -1,0 +1,132 @@
+html, body {
+	font-family: sans-serif;
+  }
+
+header {
+	height: 66px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+    z-index: 10;
+    background-color: #4CAF50;
+}
+
+.textAccueil {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	font-size: 17px;
+}
+
+.textAccueil h1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #82af54;
+}
+
+.textAccueil p{
+	padding-top: 20px;
+	text-align: justify;
+}
+
+.conteneur{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	font-size: 0px;
+}
+
+/****************************************************/
+/*styles pour la zone centrale de la page fond gris */
+/****************************************************/
+main {
+    margin-top: 75px;
+    height: 100%;
+	padding: 0px;
+	background-color: #f0f0f0;
+ 	font-size: 0px;
+}
+
+.ligne{
+	text-align: center;
+	padding: 10px;
+}
+
+.bouton {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 12px;
+}
+
+/****************************************************/
+/*styles pour le footer                             */
+/****************************************************/
+footer {
+	background-color: #4CAF50; /* Green */
+	height: 100px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+footer p{
+	padding: 15px;
+	padding-top: 25px;
+}
+
+/****************************************************/
+/*Menu principal                                    */
+/****************************************************/
+
+nav.menuPrincipal{
+	text-align: center;
+	font-size: 0px;
+	background-color: #4CAF50;
+}
+
+nav.menuPrincipal ul {
+	display:  inline;
+	list-style: none;
+	padding: 0px;
+ 	margin: 0px;
+	font-family: Helvetica; 
+}
+
+nav.menuPrincipal ul li {
+	display: table-cell;
+	text-align: center;
+	width: 140px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	background-color: #4CAF50; /* Green */
+}
+
+nav.menuPrincipal ul li a {
+  text-decoration: none;
+  color: white; 
+}
+
+nav.menuPrincipal ul li a:hover {
+  color: orange;
+}
+
+nav.menuPrincipal ul li.actif {
+  	background-color: #4CAF60; /* Green */
+  	color: white;
+  	padding: 10px;
+}
+
+nav.menuPrincipal ul li.actif:hover{
+	color: grey;
+}

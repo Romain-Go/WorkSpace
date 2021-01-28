@@ -1,0 +1,23 @@
+/* .pagination a[disabled]{
+    cursor: not-allowed;
+}
+.pagination a{
+    border-radius: 3px 3px 3px 3px;
+    padding : 10px;
+    background-color: #4CAF50;
+    display:inline-block;
+    text-decoration: none;
+    color : white;
+    border-color: #4CAF60;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+.pagination a:hover{
+    color: orange;
+}
+.ligneu{
+    text-align: center;
+} */
+li.page-item.disabled{
+    cursor:not-allowed;
+}

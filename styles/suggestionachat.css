@@ -1,0 +1,347 @@
+html, body {
+  font-family: sans-serif;
+}
+
+/****************************************************/
+/*styles pour le conteneur                             */
+/****************************************************/
+.conteneur{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height:50%;
+	font-size: 0px;
+}
+
+.texteAccueil h1{
+	color: #82af54;
+	padding: 30px 0 20px 0;
+}
+
+/****************************************************/
+/*styles pour le header top page                    */
+/****************************************************/
+header {
+	height: 66px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
+/****************************************************/
+/*styles pour la zone centrale de la page fond gris */
+/****************************************************/
+main {
+	margin-top: 75px;
+	padding: 0px;
+	background-color: #f0f0f0;
+ 	font-size: 0px;
+}
+
+/****************************************************/
+/*styles pour le footer                             */
+/****************************************************/
+footer {
+	background-color: #4CAF50; /* Green */
+	height: 100px;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+footer p{
+	padding: 15px;
+	padding-top: 25px;
+}
+/****************************************************/
+/*styles pour le logo de AutoCool                   */
+/****************************************************/
+.logo {
+	display: inline-block;
+	font-size: 50px;
+	color: white;
+	margin-left: 10px;
+}
+
+/****************************************************/
+/*styles pour le menu principal                     */
+/****************************************************/
+nav.menuPrincipal{
+	text-align: left;
+	font-size: 0px;
+	background-color: #4CAF50;
+}
+
+nav.menuPrincipal ul {
+	display:  inline;
+	list-style: none;
+	padding: 0px;
+ 	margin: 0px;
+	font-family: Helvetica; 
+}
+
+nav.menuPrincipal ul li {
+	display: table-cell;
+	text-align: center;
+	width: 140px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+	background-color: #4CAF50; /* Green */
+}
+
+nav.menuPrincipal ul li a {
+  text-decoration: none;
+  color: white; 
+}
+
+nav.menuPrincipal ul li a:hover {
+  color: orange;
+}
+
+nav.menuPrincipal ul li.actif {
+  	background-color: #4CAF60; /* Green */
+  	color: white;
+  	padding: 10px;
+}
+
+nav.menuPrincipal ul li.actif:hover{
+	color: grey;
+}
+
+/****************************************************/
+/*styles pour le page d'accueil                     */
+/****************************************************/ 
+.texteAccueil {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	font-size: 17px;
+}
+
+.texteAccueil h1{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.texteAccueil p{
+	padding-top: 20px;
+	text-align: justify;
+}
+
+.images {
+	text-align: center;
+	padding-top: 30px;
+}
+.images img{
+	height: 150px;
+	margin: 10px;
+	padding-bottom: 100px;
+}
+
+.contentConnexion{
+	background-color: #f0f0f0;
+ 	text-align: center;
+ 	padding-top: 40px;
+}
+
+.connexion {
+	display: inline-block;
+	font-size: 15px;
+	width: 400px;
+	height: 260px;
+	border: 1px solid black;
+}
+
+.contentInscription{
+	background-color: #f0f0f0;
+ 	text-align: center;
+}
+
+.contentInscription .ligne label{
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	padding-right: 10px;
+	font-weight: bold;
+	
+	
+}
+
+.contentInscription .ligne{
+	display: inline-block;
+	font-size: 15px;
+	width: 500px;
+	height: 50px;
+	margin-top : 10px;
+
+}
+
+.titre{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #4CAF50; /* Green */
+	padding: 16px;
+}
+
+.connexion a{
+	text-decoration : none;
+	color : black;	
+}
+
+.bouton {
+ 	background-color: #4CAF50; /* Green */
+  	border: none;
+ 	color: white;
+ 	text-align: center;
+  	text-decoration: none;
+ 	display: inline-block;
+ 	font-size: 16px;
+	font-weight: bold;
+	padding: 12px;
+}
+
+.bouton:hover{
+	color: grey;
+}
+
+/**********************************************************************************************************************************************************************/
+
+.retour .ligne {
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+.retour .ligne input[type=submit]{
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+/*
+.inscription .ligne{
+	padding: 14px;
+	text-align: center;
+}
+
+.inscription .ligne input[type=submit]{
+	display: inline-block;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.inscription .ligne label{
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	padding-right: 10px;
+	font-weight: bold;
+}	
+
+*/
+.inscrire {
+	display: block;
+	margin-left: auto;
+	margin-top: 20px;
+    margin-right: auto;
+	font-size: 15px;
+	width: 300px;
+	height: 125px;
+	border: 1px solid black;
+}
+.inscrire .titre{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: rgb(153,255,153);
+	/*background-color: skyblue;*/
+	padding: 16px;
+}
+.inscrire .ligne{
+	padding: 14px;
+	text-align: center;
+}
+.inscrire .ligne input[type=submit]{
+	display: inline-block;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.connexion .titre{
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: rgb(153,255,153);
+	/*background-color: skyblue;*/
+	padding: 16px;
+}
+
+
+.connexion .ligne{
+	padding: 14px;
+	text-align: center;
+}
+.connexion .retour{
+	margin-top : 30px;
+	text-align: center;
+}
+
+.connexion .ligne label{
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	padding-right: 10px;
+	font-weight: bold;
+	
+}
+
+.connexion .ligne input{
+	display: inline-block;
+	width: 200px;
+}
+
+.connexion .ligne input[type=submit]{
+	display: inline-block;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.connexion .ligne label.message{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	color: red;
+}
+table {
+	border: medium solid #000000;
+	text-align: center;
+}
+th{
+	border-color :rgba(72,72,157,0.637);
+	border : 3px;
+	text-align : center;
+	background-color: rgba(72, 72, 175, 0.637);
+}
+tr, td{
+	text-align: center;
+}
+
+.fSelectLimit{
+	text-align: left;
+	margin-left: -225px;
+}
